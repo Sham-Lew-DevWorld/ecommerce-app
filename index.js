@@ -9,7 +9,9 @@ let newSum = getSum(5, 9, 8);
 
 const printSum = () => {
   console.log(
-    `The sum of your values is ${nums[0]}.\nPlease provide values for your new calculation.`
+    `The product of your sum of values doubled is ${
+      nums[0] * 2
+    }.\nPlease provide values for your new calculation.`
   );
 };
 
