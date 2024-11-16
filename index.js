@@ -7,4 +7,10 @@ const getSum = (...arr) => {
 
 let newSum = getSum(5, 9, 8);
 
-console.log(nums);
+const printSum = () => {
+  console.log(
+    `The sum of your values is ${nums[0]}.\nPlease provide values for your new calculation.`
+  );
+};
+
+printSum();
