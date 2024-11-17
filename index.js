@@ -7,4 +7,12 @@ const getSum = (...arr) => {
 
 let newSum = getSum(5, 9, 8);
 
-console.log(nums);
+const printSum = () => {
+  console.log(
+    `The product of your sum of values doubled is ${
+      nums[0] * 2
+    }.\nPlease provide new values.`
+  );
+};
+
+printSum();
