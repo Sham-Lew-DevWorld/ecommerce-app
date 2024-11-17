@@ -11,7 +11,7 @@ const printSum = () => {
   console.log(
     `The product of your sum of values doubled is ${
       nums[0] * 2
-    }.\nPlease provide values for your new calculation.`
+    }.\nPlease provide new values.`
   );
 };
 
